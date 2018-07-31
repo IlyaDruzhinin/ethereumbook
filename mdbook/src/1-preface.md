@@ -1,0 +1,260 @@
+[preface]
+[[preface_chap]]
+== Предисловие
+
+////
+TODO: add paragraph
+////
+
+[[writing_mastering_ethereum_sec]]
+=== Написание книги Mastering Ethereum
+
+////
+TODO: add paragraph
+////
+
+[[intended_audience_sec]]
+=== Целевая аудитория
+
+////
+TODO: add paragraph
+////
+
+[[why_bees_sec]]
+=== Почему пчёлы на обложке?
+
+Медоносная пчела (лат. Apis mellifera) вид, который демонстрирует очень сложное поведение, приемущественно в улие. Каждая отдельная пчела свободно работает под небольшим набором правил и взаимодействий `findings of importance by 'dancing'`. Этот танец носит полезную информацию, такую как позиция солнца и относительность географических координат от улия до `the target in question`. Интерпритируя этот танец, пчелы могут передавать эту информацию или воздействовать на неё, таким образом, осуществляя "разум улия".
+
+Хотя пчёлы образуют кастовую форму общества и имеют королеву для производства потомства, у них нет центральной власти или лидера в улье. Это очень умное и сложное поведение. Поведение демонстрируемое колониями по несколько тысяч членов, это новое свойство, возникающее в результате взаимодействия индивидумов в социальной сети.
+
+Природа демонстрирует децентрализованую систему, которая может быть устойчива, может создавать `emergent complexity` и быть невероятно изысканной, без необходимости центральной власти, иерархии или сложных частей.
+
+[[conventinons_used_sec]]
+=== Условные обозначения, используемые в этой книге
+
+((("typographical conventions")))Следующие условные обозначения используются в этой книге:
+
+_Italic_:: Указывает на новый термин, URL, email адрес, имя файла и файловое расширение.
+
++Constant width+:: Использованы для описания программ, а также в пунктах, которые отностяся к элементам програм, таким как переменные и названия функций, базы данных, типы данных, переменные среды, `statements` и ключевых слов.
+
+**`Constant width bold`**:: Показывает команды или другой текст, который должен быть набран пользователем.
+
+_++Constant width italic++_:: Показывает текст, который должен быть заменен пользовательским значением или значением определенным в контексте.
+
+
+[TIP]
+====
+Этот знак указывает на совет или предположение.
+====
+
+[NOTE]
+====
+Этот знак указывает на заметку.
+====
+
+[WARNING]
+====
+Этот знак указывает на предупреждение или предостережениеThis icon indicates a warning or caution.
+====
+
+[[code_examples_sec]]
+=== Примеры кода
+
+((("code examples, obtaining and using", id="codeuse00"))) Примеры приведены на языках Solidity, JavaScript и Python, и используется командная строка Unix подобных операционных систем. Все фрагменты кода доступны в репозитории GitHub https://github.com/ethereumbook/ethereumbook/tree/first_edition/code[_code_], субдериктории главного репозитория. Форкните книгу, попробуйте примеры кода или внесите правки через GitHub:
+
+https://github.com/ethereumbook/ethereumbook/tree/first_edition/
+
+Все фрагменты кода могут быть воспроизведены на большинстве операционных систем с минимальными настройками компилятора, интерпитатора и библиотек для соотвествующих языков программирования. Где это необходимо, мы представляем иснтуркции по базовой установке и пошаговые примере по исполнению этих инструкций.
+
+Некоторые фрагменты кода и исходный код был изменен, для печатных изданий. Во всех таких случаях, линии были разделены символом слеша, затем символ новой строки. Когда будете расшивровывать примеры, удалите эти два символа и присоедените к линии, и вы должны увидеть идентичные результаты, как показаны в примере.
+
+Все врагменты кода используют реальные значения и вычисления, когда это возможно, `so that you can build from example to example and see the same results in any code you write to calculate the same values`. Для примера, приватные ключи и соответствующие им публичные ключи, все реальны. Примеры транзакций, контрактов, блоков и блокчейн ссылок все введены в реальный блокчейн Ethereum и являются частью публичного реестра, так что вы можете посмотритеть их в любой системе Ethereum'a.
+
+[[using_code_examples_sec]]
+=== Использование примеров кода
+
+Эта книга находится здесь, чтобы помочь вам получить работу. В общем, если пример кода предлагается с этой книгой, то вы можете использовать его в ваших програмах и документации. Вам не нужно контактировать с нами для получения каких-либо прав, до тех пор, пока вы не вопроизводите значительную часть кода. Например, написание программ, которые используют некоторые куски кода из этой книги не требует разрешения. Продажа или распространеие CD-ROM с примерами из книги O’Reilly - требует разрешения. Отвечать на вопросы с помощью цитат из книги или примеров кода, не требует разрешения. Включение значительного количества примеров кода из этой книги в документацию своего проекта - требует разрешения.
+
+((("attribution")))Мы высоко ценим, но не требуем, если вы будете указывать авторство. Авторство, обычно, включает: название, автор, издатель, ISBN и авторское право. Например: “_Mastering Ethereum_ by Andreas M. Antonopoulos and Gavin Wood (O’Reilly),
+978-1-491-97194-9. Copyright 2018.”
+
+((("open source licenses")))В некоторых изданиях этой книги под опен сорс лицензией, такой как https://creativecommons.org/licenses/by-nc/4.0/[CC-BY-NC], в таком случае условия лицензии применяются.
+
+Если вы чувствуете, что использование вами примеров кода выходит за пределы законного использования или разрешений, приведеных выше, не стесняйтесь связаться с нами по pass:[<a href="mailto:permissions@oreilly.com">permissions@oreilly.com</a>].
+
+[[ethereum_sddresses_and_transactions_sec]]
+=== Ethereum адреса и транзакции в этой книге
+
+((("getting started", "warnings and cautions")))((("warnings and cautions", "avoid sending money to addresses appearing in book")))((("keys and addresses", "warnings and cautions")))((("transactions", "warnings and cautions")))((("blockchain applications", "warnings and cautions")))((("QR codes", "warnings and cautions")))Адреса Ethereum, транзакции, ключи, QR коды и данные блокчейна в этой книге, по большей части, реальные. Это значит, что вы можете посмотреть блокчейн и найти там транзакции приведенные в примерах, извлекать их с помощью своих скриптов или программ итд.
+
+Однако, обратите внимание, закрытые ключи, используемые для построения адресов, которые либо напечатаны в этой книге или были "сожжены". Это значит, что если вы посылаете деньги на любой из этих адресов, то деньги будут потеряны навсегда или в некоторых случаях все, кто может прочитать книгу, может взять его с использованием закрытого ключа напечатного здесь.
+
+[WARNING]
+====
+НЕ ПОСЫЛАЙТЕ ДЕНЬГИ НИ НА ОДИН АДРЕС В ЭТОЙ КНИГЕ. Ваши деньги будут забраны другим читателем или потеряны навсегда..((("", startref="codeuse00")))
+====
+
+[[oreilly_safari_sec]]
+=== O'Reilly safari
+
+[role = "safarienabled"]
+[NOTE]
+====
+pass:[<a href="http://oreilly.com/safari" class="orm:hideurl"><em class="hyperlink">Safari</em></a>] (когда-то Safari Books Online) is a membership-based training and reference platform for enterprise, government, educators, and individuals.
+====
+
+Members have access to thousands of books, training videos, Learning Paths, interactive tutorials, and curated playlists from over 250 publishers, including O’Reilly Media, Harvard Business Review, Prentice Hall Professional, Addison-Wesley Professional, Microsoft Press, Sams, Que, Peachpit Press, Adobe, Focal Press, Cisco Press, John Wiley & Sons, Syngress, Morgan Kaufmann, IBM Redbooks, Packt, Adobe Press, FT Press, Apress, Manning, New Riders, McGraw-Hill, Jones & Bartlett, and Course Technology, among others.
+
+Для полной информации, пожалуйста посетите pass:[<a href="http://oreilly.com/safari" class="orm:hideurl"><em>http://oreilly.com/safari</em></a>].
+
+[[how_to_contact_us_sec]]
+=== Как с нами связаться
+
+((("comments and questions")))((("contact information")))Пожалуйста, направляйте коментарии и вопросы, касающееся этой книги, издателю:
+
+++++
+<ul class="simplelist">
+  <li>O’Reilly Media, Inc.</li>
+  <li>1005 Gravenstein Highway North</li>
+  <li>Sebastopol, CA 95472</li>
+  <li>800-998-9938 (in the United States or Canada)</li>
+  <li>707-829-0515 (international or local)</li>
+  <li>707-829-0104 (fax)</li>
+</ul>
+++++
+
+Прокомментировать или задать технические вопросы по этой книге pass:[<a class="email" href="mailto:bookquestions@oreilly.com"><em>bookquestions@oreilly.com</em></a>].
+
+Для получения подробной информации о наших книгах, курсах, конфренециях, а также новости, смотрите на нашем сайте link:$$https://www.oreilly.com$$[].
+
+Мы в Facebook: link:$$https://facebook.com/oreilly$$[]
+
+Мы в Twitter: link:$$https://twitter.com/oreillymedia$$[]
+
+Смотрите нас в YouTube: link:$$https://www.youtube.com/oreillymedia$$[]
+
+[[contacting_the_authour_sec]]
+=== Связь с авторами
+
+Информация о "Mastering Ethereum", а также открытые издания и переводы доступны на сайте:
+link:$$https://ethereumbook.info/$$[]
+
+==== Связаться с Andreas
+Вы можете связаться с Andreas M. Antonopoulos, с помощью его персонального сайта:
+link:$$https://antonopoulos.com/$$[]
+
+Andreas в Facebook:
+link:$$https://facebook.com/AndreasMAntonopoulos$$[]
+
+Andreas в Twitter:
+link:$$https://twitter.com/aantonop$$[]
+
+Andreas в Linkedin:
+link:$$https://linkedin.com/company/aantonop$$[]
+
+Andreas также хотел бы поблагодарить всех меценатов, которые поддерживают его работу ежемесячно. Вы можете подписаться на Andreas в Patreon:
+link:$$https://patreon.com/aantonop$$[]
+
+
+==== Связаться с Гэвином
+////
+TODO
+////
+
+[[acknowledgments_sec]]
+=== Благодарности от Andreas
+
+////
+TODO
+////
+
+Я обазан посвять свои слова и книги с любовью к моей маме, Theresa, которая растила меня в доме со множеством книг. Моя мама купила мне мой первый компьютер в 1982 году, не смотря на то, что сама она себя называет технофобом. Мой отец, Menelaos, инженер-строитель, который опубликовал свою первую книгу в 80 лет, был единственным, кто научил меня логическому и аналитическому мышлению и любви к науке и технике.
+
+Спасибо всем за поддержку в течении всего этого путешествия.
+
+=== Благодарности от Gavin
+
+////
+TODO
+////
+
+[[github_contrib]]
+==== Ранний релиз (GitHub содейтсвие)
+
+Многие участники высказали свои змечения, исправления и дополнения к первому релизу на GitHub. Спасибо всем за ваш вклад в эту книгу.
+
+Ниже отсортированный в алфавитном порядке список участников GitHub, которые внесли вклад, включая их ID в скобках:
+
+* Abhishek Shandilya (abhishandy)
+* Adam Zaremba (zaremba)
+* Alejandro Santander (ajsantander)
+* Alejo Salles (fiiiu)
+* Alex Manuskin (amanusk)
+* Alex Van de Sande (alexvandesande)
+* Anthony Lusardi (pyskell)
+* Assaf Yossifoff (assafy)
+* Ben Kaufman (ben-kaufman)
+* Brian Ethier (dbe)
+* Bryant Eisenbach (fubuloubu)
+* Chanan Sack (chanan-sack)
+* Christopher Gondek (christophergondek)
+* Chris Remus (chris-remus)
+* Cornell Blockchain (CornellBlockchain)
+  - Alex Frolov (sashafrolov)
+  - Brian Guo (BrianGuo)
+  - Brian Leffew (bleffew99)
+  - Giancarlo Pacenza (GPacenza)
+  - Lucas Switzer (LucasSwitz)
+  - Ohad Koronyo (ohadh123)
+  - Richard Sun (richardsfc)
+* Dan Shields (NukeManDan)
+* Daniel McClure (danielmcclure)
+* Denis Milicevic (D-Nice)
+* Dennis Zasnicoff (zasnicoff)
+* Diego H. Gurpegui (diegogurpegui)
+* Dimitris Tsapakidis (dimitris-t)
+* Flash Sheridan (FlashSheridan)
+* Franco Daniel Berdun (fMercury)
+* Hon Lau (masterlook)
+* Hudson Jameson (Souptacular)
+* Iuri Matias (iurimatias)
+* Ivan Molto (ivanmolto)
+* Jason Hill (denifednu)
+* Javier Rojas (fjrojasgarcia)
+* Joel Gugger (guggerjoel)
+* Jonathan Velando (rigzba21)
+* Jon Ramvi (ramvi)
+* Jules Lainé (fakje)
+* Kevin Carter (kcar1)
+* Krzysztof Nowak (krzysztof)
+* Leo Arias (elopio)
+* Luke Schoen (ltfschoen)
+* Liang Ma (liangma)
+* Martin Berger (drmartinberger)
+* Matthew Sedaghatfar (sedaghatfar)
+* Mike Pumphrey (bmmpxf)
+* Mobin Hosseini (iNDicat0r)
+* Nagesh Subrahmanyam (chainhead)
+* Nichanan Kesonpat (nichanank)
+* Nick Johnson (arachnid)
+* Pet3rpan (pet3r-pan)
+* Pierre-Jean Subervie (pjsub)
+* Pong Cheecharern (Pongch)
+* Qiao Wang (qiaowang26)
+* Raul Andres Garcia (manilabay)
+* Roger Häusermann (haurog)
+* Solomon Victorino (bitsol)
+* Steve Klise (sklise)
+* Sylvain Tissier (SylTi)
+* Tim Nugent (timnugent)
+* Timothy McCallum (tpmccallum)
+* Tomoya Ishizaki (zaq1tomo)
+* Vignesh Karthikeyan (meshugah)
+* Will Binns (wbnns)
+* Xavier Lavayssière (xalava)
+* Yash Bhutwala (yashbhutwala)
+* Yeramin Santana (ysfdev)
+* Zhen Wang (zmxv)
+* ztz (zt2)
+
