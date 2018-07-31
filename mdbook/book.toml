@@ -1,0 +1,5 @@
+[book]
+authors = ["Ilya Druzhinin"]
+multilingual = false
+src = "src"
+title = "Mastering Ethereum. Русский перевод"
