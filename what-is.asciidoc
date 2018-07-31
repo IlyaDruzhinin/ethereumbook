@@ -1,7 +1,9 @@
 [[whatis_chapter]]
-== What is Ethereum?
+== Что такое Ethereum?
 
-Ethereum is "the World Computer". That's one of the more common descriptions of the Ethereum platform. But what does that mean? Let's try to start with a computer science focused description, and then try to decipher that with a more practical analysis of Ethereum's capabilities and characteristics, while comparing it to Bitcoin and other distributed ledger technologies (that - for simplicity's sake - we will often refer to as "blockchains").
+Дата актуальности: 02.07.2018
+
+Ethereum это "Мировой Компьютер". That's one of the more common descriptions of the Ethereum platform. But what does that mean? Let's try to start with a computer science focused description, and then try to decipher that with a more practical analysis of Ethereum's capabilities and characteristics, while comparing it to Bitcoin and other distributed ledger technologies (that - for simplicity's sake - we will often refer to as "blockchains").
 
 From a computer science perspective, Ethereum is a deterministic but practically unbounded state-machine with two basic functions; the first being a globally accessible singleton state, and the second being a virtual machine that applies changes to that state.
 
@@ -10,7 +12,7 @@ From a more practical perspective, Ethereum is an open-source, globally decentra
 The Ethereum platform enables developers to build powerful decentralized applications with built-in economic functions. While providing continuous uptime, it also reduces or eliminates censorship, third party interface, and counterparty risk.
 
 [[bitcoin_comparison]]
-=== Compared to Bitcoin
+=== Сравнение с Bitcoin
 
 Many people will come to Ethereum with some prior experience of cryptocurrencies, specifically Bitcoin. Ethereum shares many common elements with other open blockchains: a peer-to-peer network connecting participants, a consensus algorithm for synchronization of state (Proof-of-Work), a digital currency (ether) and a global ledger (the blockchain).
 
@@ -19,7 +21,7 @@ what about cryptography?
 ////
 
 [[blockchain_components]]
-==== Components of a blockchain
+==== Компоненты блокчейна
 
 The components of an open, public, blockchain are (usually):
 
