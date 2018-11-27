@@ -1,6 +1,0 @@
-<section data-type="titlepage">
-<h1>Mastering Ethereum</h1>
-<p class="edition">First Edition</p>
-<p class="subtitle">Building Smart Contracts and DApps</p>
-<p class="author">Andreas M. Antonopoulos, Gavin Wood</p>
-</section>
